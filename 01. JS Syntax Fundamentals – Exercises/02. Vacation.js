@@ -11,7 +11,7 @@ function vacation(groupOfPeople, typeOfGroup, dayOfWeek) {
         'Regular': [15, 20, 22.50]
     };
 
-    let totalSum = 0;
+    let totalSum;
 
     if (typeOfGroup === 'Business' && groupOfPeople >= 100) {
         groupOfPeople = groupOfPeople - 10;
